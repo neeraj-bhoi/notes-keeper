@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Montserrat", sans-serif;
+}
+
+
+body {
+    padding: 0 1rem;
+    background-color: #fab964;
+    overflow-x: auto;
+}
+
+header {
+    background-image: linear-gradient(#ffeb3a, #fdfb76, #fdfb76, #ffeb3a);
+    margin: auto -16px;
+    padding: 1rem 2rem;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    margin-bottom: 5rem;
+}
+
+header h1 {
+    margin-left: 0;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: "McLaren", cursive;
+    font-weight: 200;
+}
