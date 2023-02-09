@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/static/js/main.b2b83016.js",
-    "index.html": "/index.html",
-    "main.b2b83016.js.map": "/static/js/main.b2b83016.js.map"
+    "main.js": "/notes-keeper/static/js/main.b2b83016.js",
+    "index.html": "/notes-keeper/index.html",
+    "main.b2b83016.js.map": "/notes-keeper/static/js/main.b2b83016.js.map"
   },
   "entrypoints": [
     "static/js/main.b2b83016.js"
