@@ -32,6 +32,17 @@ function App() {
     <div>
       <Header />
       <CreateArea onAddNote={addNote} onAddNoteEnter={addNoteEnter} />
+      {notes.map((item, index) => {
+        return (
+          <Note
+            key={index}
+            id={index}
+            title={item.title}
+            content={item.content}
+            onRemoveNote={removeNote}
+          />
+        );
+      })}
     </div>
   );
 }
